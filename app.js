@@ -40,7 +40,7 @@ async function sendEmail(emailInfo) {
 
   let info = await transporter.sendMail({
     from: emailInfo.email,
-    to: "minahilh21@gmail.com",
+    to: "syedhassamali05@gmail.com",
     subject: emailInfo.subject,
     text: emailInfo.message,
   });
